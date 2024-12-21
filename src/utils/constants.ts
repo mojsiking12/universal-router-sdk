@@ -99,6 +99,13 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     weth: '0x4200000000000000000000000000000000000006',
     creationBlock: 9107268,
   },
+    // base SushiSwap
+  [84532]: {
+    router: '0xf0Be72a37Ea17E087c61FFB2a26429028433a676',
+    weth: '0x4200000000000000000000000000000000000006',
+    creationBlock: 24001238,
+  },
+  
   [81457]: {
     router: '0x643770E279d5D0733F21d6DC03A8efbABf3255B4',
     weth: '0x4300000000000000000000000000000000000004',
